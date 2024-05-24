@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+
+<html lang="it" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="CapraECavoli - Home" />
+    <meta name="keywords" content="hotel, alberghi, bed & breakfast, breakfast, pernottamento, feste, eventi, prenotazioni, capra e cavoli" />
+    <meta name="author" content="Classe Bitcamp PT Team 1" />
+    <link rel="stylesheet" href="src/styleSheet.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>Capra &amp; Cavoli - Home</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#homepage_navbar">
+    <!--NAVBAR STICKY TOP-->
+    <nav class="navbar sticky-top shadow-lg" id="homepage_navbar">
+        <ul class="nav nav-pills mx-auto">
+            <li class="nav-item fs-2">
+                <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item nav-pills fs-2">
+                <a class="nav-link" href="camere.html">Camere</a>
+            </li>
+            <li class="nav-item nav-pills fs-2">
+                <a class="nav-link" href="galleria.html">Galleria</a>
+            </li>
+        </ul>
+        <a class="navbar-brand mx-auto" href="#">
+            <img src="img/logo.png" style="max-height:100px;">
+        </a>
+        <ul class="nav mx-auto">
+            <li class="nav-item nav-pills fs-2">
+                <a class="nav-link" href="prenotaContatti.html">Prenotazioni &amp; contatti</a>
+            </li>
+            <li class="nav-item nav-pills fs-2">
+                <a class="nav-link" href="blogEventi.html">Eventi</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section id="homepage">
+        <!--CAROUSEL AUTO TOP-->
+        <div class="container-fluid">
+            <div class="carousel slide my-3 shadow-lg" data-bs-ride="carousel" data-bs-interval="3000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/homepage/homepage_slide_1.jpg" class="w-100 h-auto" alt="homepage_carousel_1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/homepage/homepage_slide_2.jpg" class="w-100 h-auto" alt="homepage_carousel_2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/homepage/homepage_slide_3.jpg" class="w-100 h-auto" alt="homepage_carousel_3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/homepage/homepage_slide_4.jpg" class="w-100 h-auto" alt="homepage_carousel_4">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--MESSAGGIO BENVENUTO-->
+        <div class="container p-3 text-center">
+            <h1 class="text-light text-center mt-4 mb-0">Benvenuti a Capra &amp; Cavoli</h1>
+            <hr class="mt-2 mb-5">
+        </div>
+        <div class="container-md text-light text-wrap text-center my-3 rounded-pill shadow-lg box-transparent">
+            <p class="py-3 mx-5">
+                Il nostro bed and breakfast si distingue per la sua atmosfera unica e ospitale,
+                immerso in un contesto paesaggistico suggestivo. Desideriamo trasmettere questa
+                sensazione di calore e accoglienza attraverso il sito web, offrendo ai nostri visitatori
+                una panoramica completa delle nostre offerte e delle esperienze uniche che
+                offriamo.
+            </p>
+        </div>
+
+        <!--SERVIZI OFFERTI E ANTEMPRIMA GALLERIA-->
+        <div class="container-lg my-3 shadow-lg" style="background-color:orange; border-radius:10px;">
+            <!--Riquadro a sinistra-->
+            <div class="row">
+                <div class="col m-3 p-3" style="background-color: #ee7b01; ">
+                    <h2 class="text-center">Servizi offerti</h2>
+                    <div class="d-flex">
+                        <ul class="list mx-auto text-dark justify-content-center">
+                            <li class="list-item my-3">Early check-in e Late check-out</li>
+                            <li class="list-item my-3">Parcheggio privato o in convenzione</li>
+                            <li class="list-item my-3">Trasferimento da/per stazione/aeroporto</li>
+                            <li class="list-item my-3">Drink di benvenuto</li>
+                            <li class="list-item my-3">Upgrade della camera</li>
+                            <li class="list-item my-3">Mappa dei luoghi più instagrammabili</li>
+                            <li class="list-item my-3">Guide turistiche, convenzioni con musei</li>
+                            <li class="list-item my-3">Servizio sveglia</li>
+                            <li class="list-item my-3">Servizi pet-friendly</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!--Riquadro a destra-->
+                <div class="col m-3 p-3" style="background-color: #ee7b01; ">
+                    <h2 class="text-center">Anteprima galleria</h2>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                            <img src="img/homepage/homepage_ant_1.jpg"
+                                 class="w-100 shadow-lg-1-strong rounded mb-4"
+                                 alt="homepage_galleria_1" />
+
+                            <img src="img/homepage/homepage_ant_2.jpg"
+                                 class="w-100 shadow-lg-1-strong rounded mb-4"
+                                 alt="homepage_galleria_2" />
+                        </div>
+
+                        <div class="col-lg-4 mb-4 mb-lg-0">
+                            <img src="img/homepage/homepage_ant_3.jpg"
+                                 class="w-100 shadow-lg-1-strong rounded mb-4"
+                                 alt="homepage_galleria_3" />
+
+                            <img src="img/homepage/homepage_ant_4.jpg"
+                                 class="w-100 shadow-lg-1-strong rounded mb-4"
+                                 alt="homepage_galleria_4" />
+                        </div>
+
+                        <div class="col-lg-4 mb-4 mb-lg-0">
+                            <img src="img/homepage/homepage_ant_5.jpeg"
+                                 class="w-100 shadow-lg-1-strong rounded mb-4"
+                                 alt="homepage_galleria_5" />
+
+                            <img src="img/homepage/homepage_ant_6.jpg"
+                                 class="w-100 shadow-lg-1-strong rounded mb-4"
+                                 alt="homepage_galleria_6" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a class="btn btn-primary my-3 px-5 py-5" href="nostraStoria.html" role="button">Clicca qui per scoprire di più sulla nostra storia</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container-fluid w-100 text-center shadow-lg mt-3" style="background-color:orange;">
+            <h2 class="text-center">I nostri contatti</h2>
+            <div class="row">
+                <div class="col">
+                    <address>
+                        <b>Capra &amp; Cavoli</b> <br />
+                        Indirizzo: Via Cavoli, 666(MI) <br />
+                        Telefono: 023 1231241241 <br />
+                        e-mail: info@capraandcavoli.org
+                    </address>
+
+                </div>
+                <div class="col">
+                    <div class="fs-2 mb-3">
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-twitter"></i>
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-youtube"></i>
+                    </div>
+                    <div>
+                        <div class="fs-4">
+                            BitCamp Team 1:
+                            <a href="https://github.com/Fyuran" style="color:#212529">
+                                <i class="bi bi-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/daniel-camuffo-79359826b/" style="color:#212529">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>&copy; 2024 Capre &amp; Cavoli - tutti i diritti riservati</p>
+        </div>
+    </footer>
+</body>
+</html>
